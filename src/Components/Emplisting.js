@@ -13,7 +13,7 @@ function Emplisting(){
             console.log('This is the error', error)
         })
     }, [])
-    console.log(employees)
+  
    
     return(
         <div className="container">
@@ -27,8 +27,8 @@ function Emplisting(){
                 
                 <div className="card-body">
 
-                    <div>
-                        <Link>Add New (+)</Link>
+                    <div className="divbtn">
+                        <Link to='employee/create' className="btn btn-success">Add New (+)</Link>
                     </div>
 
                     <table className="table table-bordered">

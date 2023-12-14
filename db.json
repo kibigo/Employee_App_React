@@ -1,25 +1,39 @@
 {
   "employee": [
-      {
-          "name":"Nihira techiees",
-          "email":"nihiratechiees@gmail.com",
-          "phone": "98899090",
-          "active": true,
-          "id":1
-      },
-      {
-          "name":"Ricky Ponting",
-          "email":"rp@in.com",
-          "phone": "98899090",
-          "active": true,
-          "id":2
-      },
-      {
-          "name":"Robert",
-          "email":"robert@in.com",
-          "phone": "98879190",
-          "active": true,
-          "id":3
-      }
+    {
+      "name": "Nihira techiees",
+      "email": "nihiratechiees@gmail.com",
+      "phone": "98899090",
+      "active": true,
+      "id": 1
+    },
+    {
+      "name": "Ricky Ponting",
+      "email": "rp@in.com",
+      "phone": "98899090",
+      "active": true,
+      "id": 2
+    },
+    {
+      "name": "Robert",
+      "email": "robert@in.com",
+      "phone": "98879190",
+      "active": true,
+      "id": 3
+    },
+    {
+      "name": "Jack",
+      "email": "add@gmail.com",
+      "phone": "0763525252",
+      "isActive": "true",
+      "id": 4
+    },
+    {
+      "name": "joe",
+      "email": "add@gmail.com",
+      "phone": "0746362522",
+      "isActive": true,
+      "id": 5
+    }
   ]
 }
