@@ -5,6 +5,7 @@ import Emplisting from './Components/Emplisting';
 import Create from './Components/Create';
 import Details from './Components/Details';
 import Edit from './Components/Edit';
+import Navbar from './Components/Navbar'
 
 
 function App() {
@@ -12,10 +13,12 @@ function App() {
 
   return(
     <div className='App'>
+      <Navbar />
+      
       <h1>React CRUD operations</h1>
+      
 
       <BrowserRouter>
-
         <Routes>
           
           <Route path='/' element={<Emplisting/>}/>

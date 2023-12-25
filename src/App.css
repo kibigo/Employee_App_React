@@ -44,3 +44,33 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  position: relative;
+
+}
+
+.navlinks{
+  display: none;
+}
+
+.navlinks.show{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+
+}
+
+.toggle-btn{
+  border: none;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: left;
+ 
+}
+
+.toggle-btn svg{
+  width: 24px;
+  height: 40px;
+}
