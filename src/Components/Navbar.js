@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faHome, faInfoCircle, faTools } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar(){
     const [showNav, setShowNav] = useState(false)
@@ -17,13 +17,16 @@ function Navbar(){
             </button>
             <ul className={`navlinks ${showNav ? 'show' : ''}`}>
                 <li>
-                    <a href="/#">Home</a>
+                    <FontAwesomeIcon icon={faHome}/> 
+                    <a href="/#" className="nav-link">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <FontAwesomeIcon icon={faInfoCircle}/>
+                    <a href="#" className="nav-link">About</a>
                 </li>
                 <li>
-                    <a href="#services">Services</a>
+                    <FontAwesomeIcon icon={faTools}/>
+                    <a href="#services" className="nav-link">Services</a>
                 </li>
             </ul>
         </div>

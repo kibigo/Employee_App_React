@@ -52,6 +52,16 @@
 
 .navlinks{
   display: none;
+  list-style: none;
+}
+
+.navlinks li{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.nav-link{
+  margin-left: 10px;
 }
 
 .navlinks.show{
